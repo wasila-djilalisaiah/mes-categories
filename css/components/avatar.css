@@ -1,0 +1,58 @@
+#logo {
+  width :125px;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-white {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.all-recipes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.recipes {
+  position: relative;
+  width: 250px;
+  margin: 10px;
+  border-radius: 6px;
+}
+.image-overlay{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background:rgba(0,0,0,0.6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.20s;
+  border-radius: 6px;
+}
+
+.image-overlay:hover {
+  opacity: 1;
+}
+
+.image-titre {
+  font-size: 30px;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+
+.cat-square {
+  width: 250px;
+  border-radius: 5px;
+}
